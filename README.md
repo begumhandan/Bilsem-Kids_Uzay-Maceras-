@@ -1,5 +1,7 @@
 🚀 Uzay Macerası (BİLSEM Kids)
 
+Link:https://bilsem-cocuk.netlify.app/
+
 Bu proje, 5–6 yaş arası çocukların BİLSEM sınavlarına hazırlanmasına yardımcı olmak için geliştirdiğim etkileşimli bir web uygulamasıdır.
 Tüm içerikleri — karakterler, seslendirmeler, görseller ve yapay zekâ özellikleri — Google AI Studio ve Gemini 2.5 modellerini kullanarak oluşturdum.
 
