@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzay Macerası</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+      body {
+        font-family: 'Fredoka', sans-serif;
+        background-color: #0f172a; /* Slate 900 */
+        color: white;
+        overflow-x: hidden;
+      }
+      .star-bg {
+        background-image: radial-gradient(white 1px, transparent 1px),
+          radial-gradient(white 1px, transparent 1px);
+        background-size: 50px 50px;
+        background-position: 0 0, 25px 25px;
+        animation: stars 20s linear infinite;
+      }
+      @keyframes stars {
+        0% { background-position: 0 0, 25px 25px; }
+        100% { background-position: 50px 50px, 75px 75px; }
+      }
+      .bounce-click:active {
+        transform: scale(0.95);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
